@@ -1,0 +1,90 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block childpage %}
+<style>
+    .form-control
+    {
+    height:50px;
+    }
+</style>
+<!-- start heading -->
+<div class="row heading text-center py-4">
+    <div class="col-sm-6 mx-auto">
+        <p class="fs-3"> Contact <b class="txt-color1"> Us <i class="fa-solid fa-phone"></i></b></p></div>
+    <i> having query kindly fill the form provided below </i>
+</div>
+<!-- end heading-->
+<div class="row">
+    <div class="col-sm-10 mx-auto">
+        <div class="row">
+            <div class="col-sm-7">
+               <!--  <b>Name : </b>{{name}}
+               <b>Email : </b>{{email}}
+                <b>Mobile : </b>{{mobile}}
+                <b>Massage : </b>{{massage}}   -->
+                <form autocomplete="off" method="post">
+                    {% csrf_token %}
+                    Name<br/><input type="text" name="name"class=" form-control shadow-lg mb-2 bg-body-tertiary rounded-0" placeholder="Your Name.."required/>
+                    E-mail<br/><input type="email" name="email"class=" form-control shadow-lg mb-2 bg-body-tertiary rounded-0" placeholder="Your email.."required/>
+                    Mobile No<br/><input type="text" name="mobile"class=" form-control shadow-lg mb-2 bg-body-tertiary rounded-0" placeholder="Your Contact No.."required/>
+                    Massage <br/>
+                    <textarea class=" form-control shadow-lg mb-2 bg-body-tertiary rounded-0"placeholder="massage" name="msg"style="height:90px;"></textarea><br/>
+                    <input type="submit" class="form-control shadow-lg mb-2 w-25 rounded-0 bg-color1 text-light" value="save"/>
+                </form>
+            </div>
+            <div class="col-sm-5">
+                <div class=" vl row shadow-lg  mb-2 bg-body-tertiary rounded-0 text-start px-3 py-5">
+                    <div class="col-sm-12"> <h4>Contact <b class="txt-color1">Info</b></h4><br/>
+                      <h6 class="txt-color1"> <i class="fa-solid fa-location-dot fs-4 "></i>      Office Address</h6>
+                        <p class="px-4">Plot No-43, Behind H.P Petrol Pump,<br/>
+Tedhi Pulia Ring Rd, Sector 5,<br/>
+Vikas Nagar, Lucknow<br/>
+                            Uttar Pradesh 226022</p>
+
+                    <br> <h6 class="txt-color1"> <i class="fa-solid fa-phone fs-5"></i>&nbsp;      Call us</h6>
+                        <p class="px-4">+91 9140444301,
+                         +91 7007237006,<br/>
+                        +91 7348481001,
+                        +91 7348481004,</p>
+                       <br/> <h6 class="txt-color1"> <i class="fa-solid fa-envelope fs-5"></i>   &nbsp;       mail us</p></h6>
+                       <p class="px-4">
+                           globalnews24@gmail.com<br/>
+                            globalnewsHR@gmail.com<br>
+                        </p>
+                    </div>
+                </div>
+                                <!--contact adress-->
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row mb-5">
+    <div class="col-sm-10 mx-auto">
+        <!--start heading-->
+<div class="row heading text-center py-4" xmlns="http://www.w3.org/1999/html">
+<div class="col-sm-6 mx-auto">
+    <p class="fs-3">Find us on <b class="txt-color1">Google Map <i class="fa-solid fa-location-dot "></i></b></p>
+    <i>Find us easily || Reach us easily</i>
+</div>
+</div>
+<!--end heading-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- start heading -->
+<div class="row heading text-center py-4">
+    <div class="col-sm-6 mx-auto">
+        <p class="fs-3"> Find Us <b class="txt-color1">on Google Map <i class="fa-solid fa-location-dot"></i></b></p></div>
+    <i>Techpile Technology Pvt. Ltd. </i>
+<hr/>
+</div>
+<!-- end heading-->
+<div class="row">
+    <div class="col-sm-10 mx-auto mb-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9422.941597594268!2d80.95983776790344!3d26.894803981468122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39995785d5f7f1a5%3A0xffa47f1efe103f0d!2sTechpile%20Technology%20Pvt.%20Ltd.%20%7C%7C%20Internet%20website%20developers!5e0!3m2!1sen!2sin!4v1726582951454!5m2!1sen!2sin" class="w-100" style="border:0; min-height:400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</div>
+{% endblock %}

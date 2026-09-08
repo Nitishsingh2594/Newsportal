@@ -1,0 +1,26 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block childpage %}
+
+<!-- start heading -->
+<div class="row heading text-center py-4">
+    <div class="col-sm-6 mx-auto">
+        <p class="fs-3"> Our <b class="txt-color1">Investors </b></p></div>
+    <i> here are some investors of our company </i>
+</div>
+<!-- end heading-->
+<div class="row">
+  <div class="col-sm-10 mx-auto ">
+<div class="row">
+    {% for i in indata %}
+  <div class="col-sm-12 m-3 p-2 shadow-lg">
+      <img src="../{{i.in_picture}}" style="max-height:250px;"/>
+    <span class="fs-3 ">{{i.in_name}}</span><br/>
+    <p>{{i.in_description | safe}}</p>
+
+  </div>
+    {% endfor %}
+</div>
+    </div>
+    </div>
+{% endblock %}

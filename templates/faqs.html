@@ -1,0 +1,32 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block childpage %}
+<div class="container">
+    <div class="row my-4">
+         <div class="fs-3 text-center">Popular <b class="txt-color1">FAQs</b> </div>
+            <i class="text-center">Frequently Asked Questions</i>
+        <div class="col-sm-2 my-4"></div>
+        <div class="col-sm-8 my-4">
+
+            <div class="accordion" id="accordionExample">
+                {% for i in faqdata %}
+  <div class="accordion-item mt-3 shadow-lg">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <b>{{i.faq_qus}}</b>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>{{i.faq_ans}}</p>
+      </div>
+    </div>
+  </div>
+                {% endfor %}
+</div>
+
+        </div>
+        <div class="col-sm-2 my-4"></div>
+    </div>
+</div>
+{% endblock %}

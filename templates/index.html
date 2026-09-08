@@ -1,0 +1,129 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block childpage %}
+
+    <div class="row Slider">
+        <div class="col-sm-4">
+            <!-- start card -->
+            <div class="fs-3 shadow p-2 mb-2 bg-body-tertiary rounded">Our Letest <b class="txt-color1">News</b></div>
+            <marquee direction="up" behavior="alternate" scrollamount="2"style="min-height:450px;"onmouseover="stop()"onmouseleave="start()">
+                {% for i in lndata%}
+  <div class="card mb-3 border-0 shadow p-2 mb-2 bg-body-tertiary rounded">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="../{{i.news_picture}}" style="max-height:120px" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title" style="height:35px;overflow-y:auto;">{{i.headline}}</h5>
+        <p class="card-text"><small class="text-body-secondary"> Posted Date : {{i.posted_date}} </small><br/>
+          <a href="/newsdetails?nid={{i.id}}" class="badge bg-color1 rounded-Pill text-light" style="text-decoration:none;"><i class="fa-solid fa-eye"></i> View More</a>
+          </p>
+      </div>
+    </div>
+  </div>
+</div>
+                {% endfor %}
+            </marquee>
+            <!-- end card -->
+        </div>
+        <div class="col-sm-8 p-0 mt-1">
+            <!--Start slider-->
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+      {% for s in sdata %}
+    <div class="carousel-item active">
+      <img src="{{s.picture}}" style="max-height:470px;" class="d-block w-100" alt="slider images">
+      <div class="carousel-caption d-none d-md-block">
+        <h5><a href="/newsdetails?sid={{s.id}}" style="text-decoration:none;color:black;">{{s.title}}</a></h5>
+
+      </div>
+    </div>
+{% endfor %}
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+            <!--End slider-->
+        </div>
+    </div>
+<!-- category Section Start-->
+    <div class="row Category">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <div class="fs-3">Featured <b class="txt-color1">Category</b> </div>
+            <i>Kindly Choose The Category of News You Like</i>
+            <div class="row mt-3">
+                {% for x in cdata %}
+                        <!-- start categories-->
+                <div class="col-sm-2">
+
+                    <p class="shadow p-3 text-center mb-3 bg-body-tertiary rounded">
+                        <img src="../{{ x.category_picture}}" class="img-fluid"/>
+                        <a href="/news?catid={{x.id}}" style="text-decoration:none;"class="txt-color1"><b>{{ x.category_name}}</b></a>
+                    </p>
+
+                </div>
+                 <!-- end category-->
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+    <div class="Row section1">
+        <div class="div-sm-1"></div>
+        <div class="div-sm-10">
+             <div class="fs-3">Our <b class="txt-color1">Category</b> Latest News </div>
+            <i>See all the Recent News Posted by Us</i>
+            <div class="row">
+                 {% for i in newsdata %}
+                <div class="col-sm-4">
+                    <!-- card start-->
+                    <div class="card border-0 shadow p-3 mb-3 bg-body-tertiary rounded" style="height:500px;overflow-y:auto;">
+  <img src="../{{i.news_picture}}" style="max-height:250px;" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" style="max-height:150px; overflow-y:auto;">{{i.headline}}</h5>
+    <p class="card-text">
+        {{i.news_city}}<br/>
+        <b>Posted Date:</b> {{i.posted_date}}
+    </p>
+    <a href="/newsdetails?nid={{i.id}}" class="btn bg-color1 text-light">View More</a>
+  </div>
+</div>
+                    <!-- card end-->
+
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+        <div class="div-sm-1"></div>
+    </div>
+    <div class="row section2">
+
+        <div class="col-sm-10 mx-auto">
+            <div class="row">
+             <div class="fs-3">City <b class="txt-color1">News</b> </div>
+            <i>Kindly Choose the city Name</i><hr/>
+                {% for j in citydata %}
+                <div class="col-sm-2">
+                    <div class="card shadow-lg p-2 m-2 fs-4 text-center rounded-0 border border-danger bg-color1 text-light"><a href="/news?cityid={{j.id}}"style="text-decoration:none;color:white;">{{j.city_name}}</a></div>
+                </div>
+                {% endfor %}
+                </div>
+        </div>
+    </div>
+    <div class="row section3"></div>
+    <div class="row section4"></div>
+{% endblock %}

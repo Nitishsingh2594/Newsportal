@@ -1,0 +1,54 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block childpage %}
+<!--start heading-->
+<div class="row heading text-center py-4" xmlns="http://www.w3.org/1999/html">
+<div class="col-sm-6 mx-auto">
+    <p class="fs-3 m-0">My<b class="txt-color1"> Portfolio</b></p>
+    <hr/>
+</div>
+</div>
+<!--end heading-->
+
+    <div class="row">
+        <div class="col-sm-8 mx-auto  shadow-lg " >
+<div class="row mb-3 p-5" >
+ <div class="col-sm-7 "style="font-family:Arial Rounded MT Bold;">
+     <b class="txt-color1 fs-3">HEY</b> <i style="font-size:15px;">There ,</i><br/>
+     <b class="fs-4">I'M ,</b><br/>
+     <b class="txt-color1 fs-2" style="font-family:Arial Rounded MT Bold;">Nitish Singh,</b>
+     <p class="text-end fs-4" style="padding-left:150px;">FullStack Developer</p>
+     <hr/>
+    <p class="fs-5" > I am Proficient in both fornt-end(browser or client) and back-end(server-side) development task and maintain all parts of a web application,from user
+        inteface and experience to server-side logic and database management.</p>
+     <p class="txt-color1 fs-3 mt-0"><b>SKILLS<hr/></b>
+
+
+     <img src="{% static 'images/htmllogo.png'%}" class="img-fluid ;" style=" height:60px;">
+     <img src="{% static 'images/CSSlogo.jpg'%}" class="img-fluid ;" style="height:50px;"/>
+         <img src="{% static 'images/bootstraplogo.jpg'%}" class="img-fluid ;" style="height:90px;"/>
+     <img src="{% static 'images/javascriptlogo.png'%}" class="img-fluid ;" style="height:70px;"/>
+     <img src="{% static 'images/jquerylogo.jpg'%}" class="img-fluid ;" style="height:50px;"/>
+          <img src="{% static 'images/databaselogo.png'%}" class="img-fluid ;" style="height:50px;"/>
+             <img src="{% static 'images/pythonlogo.jpg'%}" class="img-fluid ;" style=height:70px;">
+     <img src="{% static 'images/clogo.png'%}" class="img-fluid ;" style="height:50px;"/>
+     </p>
+     <p class="ms-2">For more detail download my <b class="txt-color1">CV now </b><i class="fa-solid fa-download  fs-4 text-danger"></i></p>
+       <div class="btn btn-danger fs-5  mb-2" ><a href="{% static 'images/nitish.pdf'%}"download style="text-decoration:none; color:white;">Download CV</a></div>
+    </div>
+    <div class="col-sm-5">
+    <img src="{% static 'images/me.jpg'%}" class="img-fluid mx-auto " style="min-height:fit-content; max-height:250px; border-bottom:1px solid black"/>
+        <b class="txt-color1 fs-4" style="font-family:Arial Rounded MT Bold;">Follow me :</b>   &nbsp;&nbsp;
+        <a href="https://www.facebook.com/profile.php?id=100013926330786&fref=nf&ref=embed_post" target="_blank" style="text-decoration:none;"><i class="fa-brands fa-facebook ic border-0 fs-4"></i> </a> &nbsp;&nbsp;
+        <a href="https://youtube.com/@codewithnitish2553" target="_blank" style="text-decoration:none;color:red;"><i class="fa-brands fa-youtube ic border-0 fs-4"></i>  </a> &nbsp;&nbsp;
+        <a href="https://www.instagram.com/rajput_nitish45" target="_blank" style="text-decoration:none;color:#f7163a;"><i class="fa-brands fa-instagram  ic border-0 fs-4"></i></a> &nbsp;&nbsp;
+        <a href="https://x.com/CODERNITISH" target="_blank" style="text-decoration:none;color:black"><i class="fa-brands  fa-x-twitter   ic border-0 fs-4"></i>  </a>
+    </div>
+     <br/>
+    <hr/>
+     </div>
+
+
+</div>
+            </div>
+{% endblock %}

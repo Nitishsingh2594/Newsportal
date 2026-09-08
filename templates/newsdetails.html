@@ -1,0 +1,41 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block childpage %}
+<!-- start heading -->
+<div class="row heading text-center py-4">
+    <div class="col-sm-6 mx-auto">
+        <p class="fs-3">News <b class="txt-color1">Details</b></p>
+    <i>Welcome to <b class="txt-color1">Global India 24X7</b> Thanks for Choosing Our Platform  </i><hr/>
+</div>
+</div>
+<!-- end heading-->
+<div class="row">
+    <div class="col-sm-8 mx-auto shadow-lg mb-4 p-5">
+        <div class="row">
+            <!-- news section start-->
+            {% for i in ndata %}
+            <div class="col-sm-12">
+                <p class="text-muted"><b>{{i.news_city}}</b> ||   <b>{{i.news_category}}</b> <i class="float-end"><i class="text-danger fa-solid fa-calendar-days"></i> Posted Date : {{i.posted_date}}</i></p>
+                <h3>{{i.headline}}</h3>
+                <img src="../{{i.news_picture}}" class="img-thumbnail w-100 mb-4"/>
+                <p>
+                {{i.news_description | safe}}
+                </p>
+            </div>
+            {% endfor %}
+            <!-- news section end-->
+            <!-- slider section start-->
+            {% for i in sdata %}
+            <div class="col-sm-12">
+                <h3>{{i.title}}</h3>
+                <img src="../{{i.picture}}" class="img-thumbnail w-100 mb-4"/>
+                <p>
+                {{i.description}}
+                </p>
+            </div>
+            {% endfor %}
+            <!-- slider section end-->
+        </div>
+    </div>
+</div>
+{% endblock %}

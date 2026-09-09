@@ -307,11 +307,11 @@ STATICFILES_DIRS = [
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 
-# WhiteNoise
-STATICFILES_STORAGE = (
-    'whitenoise.storage.CompressedManifestStaticFilesStorage'
-)
-
+# # WhiteNoise
+# STATICFILES_STORAGE = (
+#     'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# )
+STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 
 # ============================================================
 # MEDIA FILES

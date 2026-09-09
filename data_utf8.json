@@ -1,0 +1,2841 @@
+[
+{
+  "model": "auth.group",
+  "fields": {
+    "name": "nitish11",
+    "permissions": [
+      [
+        "change_group",
+        "auth",
+        "group"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$65cqH7jZ6ocFN5BMShoY3G$NIymGJV2VUPNeUmFAVNKLEzsrRJa5g/Ig4TuLWpyOGg=",
+    "last_login": "2024-11-11T03:45:28.281Z",
+    "is_superuser": true,
+    "username": "Nitish@2594",
+    "first_name": "",
+    "last_name": "",
+    "email": "nitishluckysingh@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-10-17T20:47:34.269Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$w0i5guOcGYBHSkfJDMvVpj$s4sUnGfhY9FfS/CBnPNjflrCBDmp9fAkeD4PnY9eSx8=",
+    "last_login": "2026-09-09T09:59:38.319Z",
+    "is_superuser": true,
+    "username": "Nitish",
+    "first_name": "",
+    "last_name": "",
+    "email": "Nitishluckysingh@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-11-12T07:39:49.929Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4twl4nctecioct3k27a8ta6ma1jjyy11",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHQKQO4dO83kIEZpGrapI-V8d-1SRe6veec-1KJtrWlbZE5DazOyqrT75apPGTcAd9pvE26TOM6D1nvij7ooq8Ty_NyuH8HjZb2rdF4KBl7RupK9S6zE4QigQOhl873YF0MECPabG0wIFCBwCKayn1U7w_YMjch:1t4a5Y:nXud0P1D1TaArEmZfDfPotJ74MlppzcUOqEAbGI_aRU",
+    "expire_date": "2024-11-09T06:15:52.793Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d2jrhyjvvchj2j3vza93kqs11mxq6f4m",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSEM5pcyvc-AdlkITiKQjF1FuXuE5CJp38y8Nwtw7CUcPW1hJXZlkl1-N4T4THUAekC9Nx5b3bcV-VD4STtfGqXX7XT_Dgr0MmrK1pjJS0SYncvoTMJEgAqcMBrzDHoSCshGjBad9pa01R6sTwKlYp8vDYE4nw:1x4F5e:JOOeXk6gXjABhJbgN9dHKOuJ-g1pQLnS4CvNSE1UsnE",
+    "expire_date": "2026-09-23T09:59:38.328Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e05rdsh2rbls9ek9eu4jmhp0xykpd3x6",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgQMGle89AhplBqoYmpV0Z765NutDtf-_9l0iwrTVtnZc0kTgLI06_WwZ8cNsB3aHdZolzW5cpy12RB-3yOhM_L4f7d1Ch12-tIIzkNFMkNRQC8EhYUAelOQ7KRpV9QUZjDNuQHefRobE-YI7FEov3Bwh5OPA:1tLxCv:sMa0DxFHMxO-VaRRkLN_usC0c-QK2-HH-qrM9KvOavI",
+    "expire_date": "2024-12-27T04:23:17.449Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "njdi5vuoyxgiesiff11z0ewvcam18z65",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgQMGle89AhplBqoYmpV0Z765NutDtf-_9l0iwrTVtnZc0kTgLI06_WwZ8cNsB3aHdZolzW5cpy12RB-3yOhM_L4f7d1Ch12-tIIzkNFMkNRQC8EhYUAelOQ7KRpV9QUZjDNuQHefRobE-YI7FEov3Bwh5OPA:1tAlVV:7AyrStkGhhVOHlN1tIbpAFCcKlvdfaSWICr5VHclSXw",
+    "expire_date": "2024-11-26T07:40:13.837Z"
+  }
+},
+{
+  "model": "user.contactus",
+  "pk": 5,
+  "fields": {
+    "Name": "Nitish Singh",
+    "Email": "nitishluckysingh@gmail.com",
+    "Mobile": "6394259498",
+    "Massage": "Hello Sir i am Nitish a Student of B.tech final year wants a job oriented training at your institute kindly contact  me as soon as possible. Thank You !."
+  }
+},
+{
+  "model": "user.contactus",
+  "pk": 6,
+  "fields": {
+    "Name": "Priyanka Singh",
+    "Email": "priyankasingh@gmail.com",
+    "Mobile": "9987157508",
+    "Massage": "Hellow everyone i am priyanka singh. i am a student of MA first year."
+  }
+},
+{
+  "model": "user.category",
+  "pk": 2,
+  "fields": {
+    "category_name": "politics",
+    "category_picture": "static/category/news093.jpg"
+  }
+},
+{
+  "model": "user.category",
+  "pk": 3,
+  "fields": {
+    "category_name": "Bollywood",
+    "category_picture": "static/category/news153.jpg"
+  }
+},
+{
+  "model": "user.category",
+  "pk": 4,
+  "fields": {
+    "category_name": "world",
+    "category_picture": "static/category/news084.jpg"
+  }
+},
+{
+  "model": "user.category",
+  "pk": 5,
+  "fields": {
+    "category_name": "buisness",
+    "category_picture": "static/category/news029.jpg"
+  }
+},
+{
+  "model": "user.category",
+  "pk": 6,
+  "fields": {
+    "category_name": "Entainment",
+    "category_picture": "static/category/news149.jpg"
+  }
+},
+{
+  "model": "user.category",
+  "pk": 7,
+  "fields": {
+    "category_name": "Technology",
+    "category_picture": "static/category/news051.jpg"
+  }
+},
+{
+  "model": "user.category",
+  "pk": 8,
+  "fields": {
+    "category_name": "Health",
+    "category_picture": "static/category/news055.jpg"
+  }
+},
+{
+  "model": "user.category",
+  "pk": 9,
+  "fields": {
+    "category_name": "Sports",
+    "category_picture": "static/category/news021.jpg"
+  }
+},
+{
+  "model": "user.tbl_slider",
+  "pk": 6,
+  "fields": {
+    "picture": "static/slider/news003.jpg",
+    "title": "Global Solidarity in Action: The Intern",
+    "description": "An international strike is a powerful collective action where workers, activists, and communities across the globe unite to protest against unjust systems, demand labor rights, and advocate for social, economic, and environmental justice. It is a demonstration of global solidarity, where the struggle transcends national borders to highlight shared struggles, including fair wages, better working conditions, climate action, and human rights. By halting work and disrupting business as usual, participants aim to send a clear message to governments and corporations that the power of the people cannot be ignored"
+  }
+},
+{
+  "model": "user.tbl_slider",
+  "pk": 7,
+  "fields": {
+    "picture": "static/slider/news025.jpg",
+    "title": "india and china will shake their hands",
+    "description": "The friendship between India and China, two of the worldΓÇÖs oldest and most populous civilizations, is built on a complex history of cultural exchanges, economic cooperation, and diplomatic engagement. Despite having a long-standing border dispute, both nations have cultivated ties through trade, shared cultural experiences, and collaborative initiatives such as the Shanghai Cooperation Organization (SCO) and the BRICS group. Over the years, their relationship has fluctuated between rivalry and cooperation, but their mutual interests in regional stability, economic growth, and global influence have often brought them to the negotiating table. The friendship between India and China is marked by a delicate balance: while they work together in areas like trade, infrastructure, and climate change, tensions occasionally arise over border issues, strategic competition, and differing political ideologies. Nevertheless, the relationship holds immense potential for peace and prosperity in Asia, with both countries continuing to explore avenues for dialogue and cooperation."
+  }
+},
+{
+  "model": "user.tbl_slider",
+  "pk": 8,
+  "fields": {
+    "picture": "static/slider/news018.jpg",
+    "title": "virat kohli is the game changer in match",
+    "description": "In yesterday's thrilling encounter, it was none other than Virat Kohli who turned the tide and carried his team to victory with his trademark resilience and unmatched batting prowess. Coming in at a crucial moment, Kohli displayed incredible composure under pressure, guiding his side through difficult situations with a steady hand. His ability to read the game and adapt to changing circumstances was evident in his immaculate shot selection and strategic partnerships at the crease. Whether it was his calculated aggression or his ability to anchor the innings, Kohli once again proved why he's regarded as one of the best in the business. His contribution not only shifted the momentum but also showcased his leadership and mental toughness, making him the undeniable game changer of the match."
+  }
+},
+{
+  "model": "user.tbl_jobs",
+  "pk": 1,
+  "fields": {
+    "title": "Allahabad High Court Research Associates Result 20",
+    "title_link": "https://www.sarkariresult.com/2024/allahabad-hc-ro-aug24/",
+    "posted_date": "2024-10-08"
+  }
+},
+{
+  "model": "user.tbl_jobs",
+  "pk": 2,
+  "fields": {
+    "title": "Supreme Court Of India Junior Court Attendant Fina",
+    "title_link": "https://www.sarkariresult.com/2024/supreme-court-jca-aug24/",
+    "posted_date": "2024-10-08"
+  }
+},
+{
+  "model": "user.tbl_jobs",
+  "pk": 3,
+  "fields": {
+    "title": "UPSC NDA I 2024 Final Result",
+    "title_link": "https://www.sarkariresult.com/upsc/upsc-nda-first-2024/",
+    "posted_date": "2024-10-01"
+  }
+},
+{
+  "model": "user.tbl_jobs",
+  "pk": 4,
+  "fields": {
+    "title": "National Insurance NICL AO Final Result 2024",
+    "title_link": "https://www.sarkariresult.com/bank/national-insurance-ao-jan24/",
+    "posted_date": "2024-10-02"
+  }
+},
+{
+  "model": "user.tbl_jobs",
+  "pk": 5,
+  "fields": {
+    "title": "Bihar Vidhan Parishad Stenographer Admit Card 2024",
+    "title_link": "https://www.sarkariresult.com/bihar/bihar-vidhan-02-2024/",
+    "posted_date": "2024-10-02"
+  }
+},
+{
+  "model": "user.tbl_jobs",
+  "pk": 6,
+  "fields": {
+    "title": "IRDAI Assistant Manager Admit Card 2024",
+    "title_link": "https://www.sarkariresult.com/bank/irdai-asst-manager-aug24/#google_vignette",
+    "posted_date": "2024-10-29"
+  }
+},
+{
+  "model": "user.tbl_city",
+  "pk": 9,
+  "fields": {
+    "city_name": "mumbai",
+    "city_picture": "static/city/mum.jpg"
+  }
+},
+{
+  "model": "user.tbl_city",
+  "pk": 10,
+  "fields": {
+    "city_name": "jaunpur",
+    "city_picture": "static/city/jaun.jpg"
+  }
+},
+{
+  "model": "user.tbl_city",
+  "pk": 11,
+  "fields": {
+    "city_name": "azamgadh",
+    "city_picture": "static/city/azamgadh.jpg"
+  }
+},
+{
+  "model": "user.tbl_city",
+  "pk": 12,
+  "fields": {
+    "city_name": "gorakhpur",
+    "city_picture": "static/city/gorakhpur.jpg"
+  }
+},
+{
+  "model": "user.tbl_city",
+  "pk": 13,
+  "fields": {
+    "city_name": "lucknow",
+    "city_picture": "static/city/lucknow.jpg"
+  }
+},
+{
+  "model": "user.tbl_city",
+  "pk": 14,
+  "fields": {
+    "city_name": "mau",
+    "city_picture": "static/city/mau.jpg"
+  }
+},
+{
+  "model": "user.tbl_city",
+  "pk": 15,
+  "fields": {
+    "city_name": "varanasi",
+    "city_picture": "static/city/varanasi.jpg"
+  }
+},
+{
+  "model": "user.tbl_city",
+  "pk": 16,
+  "fields": {
+    "city_name": "world",
+    "city_picture": "static/city/news084.jpg"
+  }
+},
+{
+  "model": "user.tbl_city",
+  "pk": 17,
+  "fields": {
+    "city_name": "delhi",
+    "city_picture": "static/city/news087.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 10,
+  "fields": {
+    "headline": "Pakistan bomb blast: At least 24 killed, 46 injured in suicide bombing at railway",
+    "news_category": 4,
+    "news_city": 16,
+    "news_description": "<p>At least 24 people were killed and 46 others injured on Saturday (November 9, 2024)in a suicide bombing at a railway station in Pakistan&rsquo;s restive Balochistan province, officials said.</p>\r\n<p>The explosion ripped through the railway station of the provincial capital Quetta as passengers gathered on the platform before the departure of the Jaffar Express, scheduled to depart for Peshawar at 9:00 am.</p>\r\n<div id=\"artmeterpv\" class=\"\"></div>\r\n<div id=\"arthardpv\" class=\"articleblock-container\"></div>",
+    "posted_date": "2024-11-02",
+    "news_picture": "static/news/news126.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 11,
+  "fields": {
+    "headline": "Virat Kohli Shines in Comeback Match, Leads India to Thrilling Victory Over Australia",
+    "news_category": 9,
+    "news_city": 13,
+    "news_description": "<p>&nbsp;In a scintillating display of skill and temperament, Indian cricket superstar Virat Kohli led his team to a dramatic 5-wicket victory over Australia in the third ODI of the series, held at the Melbourne Cricket Ground (MCG) today. Kohli, who had been in the spotlight following a lean patch in international cricket, silenced critics with a masterful 97 runs off 114 balls, guiding India to a challenging 265-run target set by Australia.</p>\r\n<p>With the victory, India now leads the series 2-1, setting up an exciting decider in the final ODI scheduled for later this week.</p>",
+    "posted_date": "2024-11-13",
+    "news_picture": "static/news/news160.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 12,
+  "fields": {
+    "headline": "Virat Kohli: The King of Consistency and Craft",
+    "news_category": 9,
+    "news_city": 9,
+    "news_description": "<p><strong>Virat Kohli</strong>, India's modern-day cricketing icon, continues to rewrite records and captivate fans worldwide with his impeccable technique, unparalleled consistency, and aggressive style of play. Known for his ability to chase down challenging targets and dominate in all formats of the game, Kohli has established himself as one of the greatest batsmen of this generation. With over 70 international centuries and numerous match-winning performances, his relentless pursuit of excellence has earned him admiration and respect both on and off the field. As he leads India into the next phase of international cricket, Kohli's legacy as a player and a leader remains unmatched</p>",
+    "posted_date": "2024-11-03",
+    "news_picture": "static/news/news174.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 13,
+  "fields": {
+    "headline": "Savdhan India: Real-Life Stories of Courage and Justice That Will Leave You Stunned",
+    "news_category": 3,
+    "news_city": 9,
+    "news_description": "<div class=\"flex max-w-full flex-col flex-grow\">\r\n<div class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words [.text-message+&amp;]:mt-5\" dir=\"auto\" data-message-author-role=\"assistant\" data-message-id=\"e7a1759f-551c-495d-ade9-dd16a6b949a4\" data-message-model-slug=\"gpt-4o-mini\">\r\n<div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\">\r\n<div class=\"markdown prose w-full break-words dark:prose-invert light\">\r\n<p><em>Savdhan India</em> is a gripping crime drama series that brings to light shocking, real-life stories of crime, betrayal, and justice. Each episode features a new case, highlighting the resilience of ordinary people caught in extraordinary circumstances. From fraud and corruption to survival against violence, <em>Savdhan India</em> not only showcases the darker side of society but also celebrates the courage and determination of individuals who fight back. With its powerful storytelling and hard-hitting narrative, the show has become a wake-up call for viewers, urging them to stay alert and vigilant in their daily lives. Tune in every week to witness true stories of bravery, justice, and survival.</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"mb-2 flex gap-3 empty:hidden -ml-2\">\r\n<div class=\"items-center justify-start rounded-xl p-1 flex\">\r\n<div class=\"flex items-center\"><button class=\"rounded-lg text-token-text-secondary hover:bg-token-main-surface-secondary\" aria-label=\"Copy\" data-testid=\"copy-turn-action-button\"></button>\r\n<div class=\"flex items-center pb-0\">&nbsp;</div>\r\n</div>\r\n</div>\r\n</div>",
+    "posted_date": "2024-11-04",
+    "news_picture": "static/news/news149.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 14,
+  "fields": {
+    "headline": "Arvind Kejriwal: The Man Who Redefined Delhi Politics",
+    "news_category": 2,
+    "news_city": 17,
+    "news_description": "<p>Arvind Kejriwal, the Chief Minister of Delhi, has emerged as one of India's most influential political figures, known for his anti-corruption stance and focus on improving governance. As the leader of the Aam Aadmi Party (AAP), Kejriwal has championed initiatives in education, healthcare, and electricity reforms that have reshaped Delhi's political landscape. From his days as an activist in the India Against Corruption movement to his rise as the face of a new political wave, Kejriwal's journey has been marked by both praise and controversy. With his populist policies, commitment to transparency, and bold decisions, Kejriwal continues to be a prominent voice in Indian politics, constantly challenging the status quo and advocating for the common man</p>",
+    "posted_date": "2024-11-06",
+    "news_picture": "static/news/news086.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 15,
+  "fields": {
+    "headline": "Narendra Modi: Transforming IndiaΓÇÖs Vision on the Global Stage",
+    "news_category": 2,
+    "news_city": 11,
+    "news_description": "<p>Prime Minister Narendra Modi&rsquo;s leadership continues to shape India&rsquo;s future as a rising global power. Under his guidance, India has seen significant strides in economic reforms, infrastructure development, and foreign policy initiatives. Modi&rsquo;s flagship programs such as<span style=\"background-color: rgb(224, 62, 45);\"> <em>Make in India</em>, <em>Digital India</em>,</span> and <em>Swachh Bharat</em> have sought to address the country&rsquo;s most pressing challenges, from job creation to sanitation. On the global front, Modi has bolstered India&rsquo;s relationships with key nations, positioning the country as a strong player in international diplomacy. While his tenure has sparked debate and controversy, Modi&rsquo;s ability to galvanize masses and push ambitious projects remains unmatched. As he navigates India through a new era, the world continues to watch closely, anticipating the next chapter in India&rsquo;s rise under his leadership.</p>",
+    "posted_date": "2024-11-06",
+    "news_picture": "static/news/news121.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 16,
+  "fields": {
+    "headline": "PM Narendra Modi Shines at 'Namaste India' Event: A Celebration of Global Unity and India's Rising Influence",
+    "news_category": 4,
+    "news_city": 15,
+    "news_description": "<p>In a powerful display of diplomacy and cultural pride, Prime Minister Narendra Modi headlined the <em>Namaste India</em> event, a global initiative aimed at strengthening India's ties with the world while celebrating its rich heritage. The event, held in New York, saw a massive turnout of dignitaries, foreign diplomats, and global citizens, all coming together to honor India's contributions to global peace, technology, and culture. Modi's speech at the event emphasized India&rsquo;s commitment to global cooperation, sustainable development, and innovation. He highlighted key achievements of his government, including India&rsquo;s strides in renewable energy, digitalization, and its role in addressing global challenges such as climate change. The Prime Minister also underscored the importance of unity and cultural exchange, reinforcing India's position as a bridge between the East and the West.</p>",
+    "posted_date": "2024-11-14",
+    "news_picture": "static/news/news078.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 17,
+  "fields": {
+    "headline": "IndiaΓÇÖs Technology Revolution: From Startups to Global Leaders in Innovation",
+    "news_category": 7,
+    "news_city": 14,
+    "news_description": "<p>India is undergoing a transformative technological revolution, positioning itself as one of the world&rsquo;s fastest-growing hubs for innovation and digital progress. With a rapidly expanding startup ecosystem, India is now home to more than 100 unicorns, making it the third-largest startup ecosystem globally. The rise of technology in India has been driven by advancements in artificial intelligence, fintech, e-commerce, and digital infrastructure, with companies like Infosys, TCS, and fresh entrants like Zerodha and Byju&rsquo;s leading the charge. The government's <em>Digital India</em> initiative has played a crucial role in boosting digital literacy and expanding internet access across the country, while initiatives such as <em>Make in India</em> are encouraging domestic manufacturing of cutting-edge technologies. From tech-driven solutions in healthcare and agriculture to a booming app market, India is rapidly becoming a global leader in tech innovation, attracting significant investment from international firms and redefining the future of digital transformation. With ongoing investments in research and development, India is poised to continue its ascent as a global technology powerhouse.</p>",
+    "posted_date": "2024-11-11",
+    "news_picture": "static/news/news057.jpeg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 18,
+  "fields": {
+    "headline": "Patiala Babes: A Heartwarming Journey of Mother-Daughter Bond and Self-Discovery",
+    "news_category": 6,
+    "news_city": 11,
+    "news_description": "<p><em>Patiala Babes</em> is a refreshing family drama that explores the evolving relationship between a strong-willed mother, Babita, and her headstrong daughter, Mini, as they navigate life's ups and downs in the vibrant city of Patiala. After Babita's marriage falls apart, she embarks on a journey of self-reliance, opening a small food business and learning to embrace her independence. Mini, a rebellious teenager with big dreams, struggles to balance her love for her mother with her aspirations of becoming a successful artist. Set against the backdrop of family traditions, humor, and the challenges of modern-day life, <em>Patiala Babes</em> showcases the power of resilience, empowerment, and unconditional love. The series beautifully captures the essence of a mother-daughter relationship, as the duo faces societal pressures, personal growth, and the pursuit of happiness together. Tune in for a blend of heartwarming moments and inspiring stories that will keep you hooked every week.</p>",
+    "posted_date": "2024-11-20",
+    "news_picture": "static/news/news140.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 19,
+  "fields": {
+    "headline": "Donald Trump Announces 2024 Presidential Bid: A Bold Comeback or Political Gamble?",
+    "news_category": 4,
+    "news_city": 10,
+    "news_description": "<p>In a highly anticipated move, former U.S. President Donald Trump officially announced his candidacy for the 2024 presidential election, promising to \"Make America Great Again\" for a second term. Speaking at a rally in Miami, Trump outlined his vision for the future, focusing on revitalizing the U.S. economy, securing borders, and countering what he called the \"radical left agenda.\" His announcement marks the beginning of what is expected to be a contentious race, with Trump aiming to reclaim the White House after a tumultuous post-presidency period marked by legal battles, political polarization, and his involvement in the January 6th Capitol riots.</p>",
+    "posted_date": "2024-11-15",
+    "news_picture": "static/news/news136.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 20,
+  "fields": {
+    "headline": "JP Nadda Focuses on Party Unity and Growth as BJP Prepares for 2024 Elections",
+    "news_category": 8,
+    "news_city": 10,
+    "news_description": "<p>Bharatiya Janata Party (BJP) President JP Nadda has reaffirmed his commitment to strengthening the party's organizational structure and expanding its reach as the countdown to the 2024 General Elections begins. In a recent address to party workers, Nadda emphasized the importance of unity, discipline, and grassroots engagement, urging party members to stay connected with the masses and uphold the party&rsquo;s core values.</p>",
+    "posted_date": "2024-11-08",
+    "news_picture": "static/news/news001_QNRF9ea.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 21,
+  "fields": {
+    "headline": "India Strengthens Air Defense: New Fighter Jets Enhance IAF's Capability",
+    "news_category": 7,
+    "news_city": 12,
+    "news_description": "<p>In a major boost to its defense capabilities, the Indian Air Force (IAF) has inducted a new fleet of advanced fighter jets, enhancing its operational readiness amid rising security concerns in the region. The addition of the <em>Dassault Rafale</em> and <em>Sukhoi Su-30MKI</em> aircraft, along with indigenously developed <em>Tejas Light Combat Aircraft</em>, marks a significant step toward modernizing the country&rsquo;s air power and maintaining strategic air superiority.</p>\r\n<p>The <em>Rafale</em>, purchased from France, is considered one of the most advanced multirole fighters in the world, capable of carrying out precision strikes and air superiority missions. The <em>Su-30MKI</em>, a heavy-weight multirole fighter, is already a key component of India's air defense, known for its versatility and superior maneuverability. Meanwhile, the <em>Tejas</em>, developed under the <em>Make in India</em> initiative, strengthens the country&rsquo;s self-reliance in defense technology and is expected to play a pivotal role in the IAF's future operations.</p>",
+    "posted_date": "2024-11-23",
+    "news_picture": "static/news/news101.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 22,
+  "fields": {
+    "headline": "India Sets New Milestone in Cow Production: Boosting Dairy Industry and Rural Economy",
+    "news_category": 5,
+    "news_city": 12,
+    "news_description": "<p>India has achieved a significant milestone in cow production, with the country recording its highest-ever cattle population, bolstering the nation's dairy industry and rural economy. The rise in cow numbers has been attributed to increased focus on animal husbandry, better breeding practices, and government initiatives aimed at improving livestock productivity.</p>\r\n<p>The surge in cow production is expected to not only meet the growing domestic demand for milk and dairy products but also position India as a key player in the global dairy market. Experts believe this development will lead to increased employment opportunities in rural areas, benefiting farmers and boosting the income of millions.</p>",
+    "posted_date": "2024-11-23",
+    "news_picture": "static/news/news091.jpg"
+  }
+},
+{
+  "model": "user.tbl_news",
+  "pk": 23,
+  "fields": {
+    "headline": "India Launches Major Pashupalan Scheme to Boost Livestock Farming and Rural Economy",
+    "news_category": 5,
+    "news_city": 10,
+    "news_description": "<p>In a groundbreaking initiative to strengthen the rural economy and enhance livestock farming, the Indian government has launched the <em>Pashupalan Scheme</em>, aimed at improving the health, productivity, and welfare of cattle, sheep, goats, and other livestock. The scheme focuses on promoting sustainable animal husbandry practices, improving breed quality, and providing farmers with access to modern veterinary care and technologies.</p>\r\n<p>Under this scheme, the government will provide financial assistance, training, and technical support to farmers and livestock owners across the country. The initiative also includes setting u<span style=\"background-color: rgb(186, 55, 42);\">p livestock health centers, veterinary clinics, and providing subsidies for the purchase of high-quality feed and medicines. Experts believe that <em>Pashupalan</em> will play a pivotal role in boosting milk, meat, and wool production, leading to enhanced income for farmers in rural India.</span></p>\r\n<p>The <em>Pashupalan Scheme</em> also aligns with the government's broader vision of promoting rural self-sufficiency and ensuring food security through the welfare of livestock. By improving the productivity of the livestock sector, the program aims to create jobs, enhance farmer incomes, and contribute to the overall economic growth of India's rural communities.</p>",
+    "posted_date": "2024-11-19",
+    "news_picture": "static/news/news090.jpg"
+  }
+},
+{
+  "model": "user.video_news",
+  "pk": 5,
+  "fields": {
+    "news_headline": "Kapil Sharma In Aap Ki Adalat: αñòαñƒαñÿαñ░αÑç αñ«αÑçαñé αñòαÑëαñ«αÑçαñíαÑÇ αñòαÑç αñ¼αñ╛αñªαñ╢αñ╛αñ╣ αñòαñ¬αñ┐αñ▓ αñ╢αñ░αÑìαñ«αñ╛ αñ╕αÑç αññαÑÇαñûαÑç αñ╕αñ╡αñ╛αñ▓ | Rajat Sharma",
+    "news_description": "<p>In a rare and candid appearance on <em>Aap Ki Adalat</em>, comedian and TV host Kapil Sharma sat down with veteran journalist Rajat Sharma to discuss his journey from a struggling comedian to one of India&rsquo;s most beloved entertainers. The episode, which aired on Sunday evening, saw Kapil Sharma open up about his career, personal life, and the challenges he has faced along the way.</p>\r\n<p>During the intense but light-hearted conversation, Sharma reflected on his rise to fame with <em>The Kapil Sharma Show</em> and shared behind-the-scenes stories of working with celebrities, dealing with controversies, and maintaining a balance between humor and personal struggles. \"Comedy is not just about making people laugh; it's about connecting with them on a deeper level,\" Kapil remarked, as he spoke about the pressures of being in the limelight.</p>",
+    "video_link": "https://www.youtube.com/embed/5eINSAt0RYY?si=qkN00",
+    "posted_date": "2024-11-01"
+  }
+},
+{
+  "model": "user.video_news",
+  "pk": 6,
+  "fields": {
+    "news_headline": "Dhirendra Shastri In Aap Ki Adalat: αñ¼αñ╛αñùαÑçαñ╢αÑìαñ╡αñ░ αñºαñ╛αñ« αñ╕αñ░αñòαñ╛αñ░ αñ¿αÑç αñòαñƒαñÿαñ░αÑç αñ«αÑçαñé αñòαñ┐αñÅ αñ¼αÑ£αÑç αñûαÑüαñ▓αñ╛αñ╕αÑç | Rajat Sharma",
+    "news_description": "<p>In a rare and candid appearance on <em>Aap Ki Adalat</em>, comedian and TV host Kapil Sharma sat down with veteran journalist Rajat Sharma to discuss his journey from a struggling comedian to one of India&rsquo;s most beloved entertainers. The episode, which aired on Sunday evening, saw Kapil Sharma open up about his career, personal life, and the challenges he has faced along the way.</p>\r\n<p>During the intense but light-hearted conversation, Sharma reflected on his rise to fame with <em>The Kapil Sharma Show</em> and shared behind-the-scenes stories of working with celebrities, dealing with controversies, and maintaining a balance between humor and personal struggles. \"Comedy is not just about making people laugh; it's about connecting with them on a deeper level,\" Kapil remarked, as he spoke about the pressures of being in the limelight.</p>",
+    "video_link": "https://www.youtube.com/embed/OC_7FlcFYCM?si=0NB8P",
+    "posted_date": "2024-11-07"
+  }
+},
+{
+  "model": "user.tbl_faq",
+  "pk": 1,
+  "fields": {
+    "faq_qus": "1. What is Samachar India?",
+    "faq_ans": "Samachar India is a leading online news platform providing the latest updates on current affairs, politics, sports, entertainment, business, and more. We aim to deliver reliable and timely news to our readers."
+  }
+},
+{
+  "model": "user.tbl_faq",
+  "pk": 2,
+  "fields": {
+    "faq_qus": "2. How often is the news updated on Samachar India?",
+    "faq_ans": "We strive to update our news content throughout the day, ensuring that readers receive the latest information as soon as it becomes available."
+  }
+},
+{
+  "model": "user.tbl_faq",
+  "pk": 3,
+  "fields": {
+    "faq_qus": "3. How can I subscribe to Samachar IndiaΓÇÖs newsletter?",
+    "faq_ans": "To subscribe to our newsletter, simply enter your email address in the subscription box found on our homepage or under the \"Newsletter\" section. You will receive daily updates directly to your inbox."
+  }
+},
+{
+  "model": "user.tbl_faq",
+  "pk": 4,
+  "fields": {
+    "faq_qus": "4. Is Samachar India free to access?",
+    "faq_ans": "Yes, all content on Samachar India is free to access. You can read articles, watch videos, and browse various sections without any cost."
+  }
+},
+{
+  "model": "user.tbl_faq",
+  "pk": 5,
+  "fields": {
+    "faq_qus": "5. Can I submit my own news or articles to Samachar India?",
+    "faq_ans": "Yes, we welcome user-generated content. If you have a news story or article you'd like to submit, please visit our \"Contribute\" page for guidelines and submission┬ádetails."
+  }
+},
+{
+  "model": "user.tbl_investor",
+  "pk": 3,
+  "fields": {
+    "in_picture": "static/investor/f.jpg",
+    "in_name": "Ms. Falguni Nayar",
+    "in_description": "<p>Falguni Nayar, the founder of Nykaa, has a strong background in technology-driven business growth, especially in the digital and consumer sectors. She could be interested in <strong>Global India 24*7</strong> as a project that could promote India&rsquo;s digital potential on the global stage.</p>"
+  }
+},
+{
+  "model": "user.tbl_investor",
+  "pk": 4,
+  "fields": {
+    "in_picture": "static/investor/b.jpg",
+    "in_name": "Binny Bansal",
+    "in_description": "<p>Co-founder of Flipkart, Binny Bansal is an active investor in Indian tech startups. His expertise in building scalable businesses and digital platforms would be an asset to <strong>Global India 24*7</strong>.</p>"
+  }
+},
+{
+  "model": "user.tbl_investor",
+  "pk": 5,
+  "fields": {
+    "in_picture": "static/investor/k.jpg",
+    "in_name": "Deep Kalra",
+    "in_description": "<p>As the founder of MakeMyTrip, Deep Kalra has a deep understanding of the travel and technology sectors. His experience in scaling global platforms could help in expanding the reach of <strong>Global India 24*7</strong>.</p>"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-10-17T21:13:51.839Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "contactus"
+    ],
+    "object_id": "1",
+    "object_repr": "contactus object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-10-17T22:15:44.677Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "category"
+    ],
+    "object_id": "1",
+    "object_repr": "category object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-10-26T06:24:33.513Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "category"
+    ],
+    "object_id": "2",
+    "object_repr": "category object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-10-26T06:26:29.801Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "category"
+    ],
+    "object_id": "3",
+    "object_repr": "category object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-10-26T06:28:39.065Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "category"
+    ],
+    "object_id": "4",
+    "object_repr": "category object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-10-26T06:29:11.135Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "category"
+    ],
+    "object_id": "5",
+    "object_repr": "category object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-10-26T06:30:15.755Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "category"
+    ],
+    "object_id": "6",
+    "object_repr": "category object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-10-26T06:30:50.261Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "category"
+    ],
+    "object_id": "7",
+    "object_repr": "category object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-10-26T06:31:24.085Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "category"
+    ],
+    "object_id": "8",
+    "object_repr": "category object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-10-26T07:06:18.387Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "category"
+    ],
+    "object_id": "1",
+    "object_repr": "category object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-10-26T07:22:48.841Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "category"
+    ],
+    "object_id": "9",
+    "object_repr": "category object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-10-27T01:04:36.938Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "1",
+    "object_repr": "tbl_city object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-10-27T01:09:42.647Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "2",
+    "object_repr": "tbl_city object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-10-27T01:10:10.884Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "3",
+    "object_repr": "tbl_city object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-10-27T01:10:34.636Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "4",
+    "object_repr": "tbl_city object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-10-27T01:11:01.523Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "5",
+    "object_repr": "tbl_city object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-10-27T01:11:21.267Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "6",
+    "object_repr": "tbl_city object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-10-27T01:32:34.070Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "category"
+    ],
+    "object_id": "10",
+    "object_repr": "local",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-10-27T01:36:08.410Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "1",
+    "object_repr": "tbl_news object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-10-27T01:37:18.247Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "2",
+    "object_repr": "tbl_news object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-10-27T01:37:51.871Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "3",
+    "object_repr": "tbl_news object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-10-27T01:38:38.266Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "4",
+    "object_repr": "tbl_news object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-10-27T01:39:06.687Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "5",
+    "object_repr": "tbl_news object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-10-27T01:39:37.928Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "6",
+    "object_repr": "tbl_news object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-10-27T06:36:26.221Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "7",
+    "object_repr": "kanpur",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-10-27T06:37:17.902Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "8",
+    "object_repr": "varansasi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-10-27T13:07:19.286Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_jobs"
+    ],
+    "object_id": "1",
+    "object_repr": "tbl_jobs object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-10-27T13:08:12.171Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_jobs"
+    ],
+    "object_id": "2",
+    "object_repr": "tbl_jobs object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-10-27T13:09:11.886Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_jobs"
+    ],
+    "object_id": "3",
+    "object_repr": "tbl_jobs object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-10-27T13:10:09.887Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_jobs"
+    ],
+    "object_id": "4",
+    "object_repr": "tbl_jobs object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-10-27T13:38:21.314Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "7",
+    "object_repr": "tbl_news object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-10-27T16:27:42.144Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "1",
+    "object_repr": "tbl_slider object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-10-27T16:28:55.670Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "2",
+    "object_repr": "tbl_slider object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-10-27T16:30:03.991Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "3",
+    "object_repr": "tbl_slider object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-10-27T16:30:27.213Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "4",
+    "object_repr": "tbl_slider object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-10-27T16:31:00.015Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "5",
+    "object_repr": "tbl_slider object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-10-29T09:01:32.379Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_jobs"
+    ],
+    "object_id": "5",
+    "object_repr": "tbl_jobs object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-10-29T09:03:52.851Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_jobs"
+    ],
+    "object_id": "6",
+    "object_repr": "tbl_jobs object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-11-02T07:39:35.599Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_faq"
+    ],
+    "object_id": "1",
+    "object_repr": "tbl_faq object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-11-02T07:40:18.649Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_faq"
+    ],
+    "object_id": "2",
+    "object_repr": "tbl_faq object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-11-02T07:40:58.338Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_faq"
+    ],
+    "object_id": "3",
+    "object_repr": "tbl_faq object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-11-02T07:41:40.824Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_faq"
+    ],
+    "object_id": "4",
+    "object_repr": "tbl_faq object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-11-02T07:42:25.477Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_faq"
+    ],
+    "object_id": "5",
+    "object_repr": "tbl_faq object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-11-02T10:42:59.211Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "video_news"
+    ],
+    "object_id": "1",
+    "object_repr": "video_news object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-11-02T10:48:43.483Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "video_news"
+    ],
+    "object_id": "2",
+    "object_repr": "video_news object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-11-02T11:39:27.527Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "video_news"
+    ],
+    "object_id": "3",
+    "object_repr": "video_news object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-11-02T11:49:38.198Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "video_news"
+    ],
+    "object_id": "4",
+    "object_repr": "video_news object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-11-02T11:49:52.526Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "video_news"
+    ],
+    "object_id": "3",
+    "object_repr": "video_news object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-11-07T06:45:43.684Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_investor"
+    ],
+    "object_id": "1",
+    "object_repr": "tbl_investor object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-11-07T06:58:20.548Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_investor"
+    ],
+    "object_id": "1",
+    "object_repr": "tbl_investor object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-11-07T06:59:25.133Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_investor"
+    ],
+    "object_id": "2",
+    "object_repr": "tbl_investor object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2024-11-07T11:13:08.951Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "category"
+    ],
+    "object_id": "10",
+    "object_repr": "local",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2024-11-07T11:14:44.454Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "7",
+    "object_repr": "tbl_news object (7)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2024-11-07T11:14:44.454Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "6",
+    "object_repr": "tbl_news object (6)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2024-11-07T11:14:44.454Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "5",
+    "object_repr": "tbl_news object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2024-11-07T11:14:44.454Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "4",
+    "object_repr": "tbl_news object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2024-11-07T11:14:44.454Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "3",
+    "object_repr": "tbl_news object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2024-11-07T11:14:44.454Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "2",
+    "object_repr": "tbl_news object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2024-11-07T11:15:02.895Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_investor"
+    ],
+    "object_id": "2",
+    "object_repr": "tbl_investor object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2024-11-07T11:15:55.021Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "contactus"
+    ],
+    "object_id": "4",
+    "object_repr": "contactus object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2024-11-07T11:15:55.022Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "contactus"
+    ],
+    "object_id": "3",
+    "object_repr": "contactus object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2024-11-07T11:15:55.022Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "contactus"
+    ],
+    "object_id": "2",
+    "object_repr": "contactus object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2024-11-07T11:15:55.022Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "contactus"
+    ],
+    "object_id": "1",
+    "object_repr": "contactus object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2024-11-07T11:16:35.155Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "5",
+    "object_repr": "tbl_slider object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2024-11-07T11:16:35.155Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "4",
+    "object_repr": "tbl_slider object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2024-11-07T11:16:35.155Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "3",
+    "object_repr": "tbl_slider object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2024-11-07T11:16:35.155Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "2",
+    "object_repr": "tbl_slider object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2024-11-07T11:16:35.155Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "1",
+    "object_repr": "tbl_slider object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2024-11-07T11:16:55.233Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "video_news"
+    ],
+    "object_id": "4",
+    "object_repr": "video_news object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2024-11-07T11:16:55.234Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "video_news"
+    ],
+    "object_id": "2",
+    "object_repr": "video_news object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2024-11-07T11:16:55.234Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "video_news"
+    ],
+    "object_id": "1",
+    "object_repr": "video_news object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2024-11-07T11:20:27.211Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "contactus"
+    ],
+    "object_id": "5",
+    "object_repr": "contactus object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2024-11-07T11:22:13.113Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "contactus"
+    ],
+    "object_id": "6",
+    "object_repr": "contactus object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2024-11-07T11:26:06.530Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "9",
+    "object_repr": "mumbai",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2024-11-07T11:33:15.797Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "8",
+    "object_repr": "tbl_news object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2024-11-08T02:21:43.519Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "8",
+    "object_repr": "varansasi",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2024-11-08T02:21:43.519Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "7",
+    "object_repr": "kanpur",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2024-11-08T02:21:43.519Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "6",
+    "object_repr": "gorakhpur",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2024-11-08T02:21:43.519Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "5",
+    "object_repr": "gorakhpur",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2024-11-08T02:21:43.519Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "4",
+    "object_repr": "azamgadh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2024-11-08T02:21:43.519Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "3",
+    "object_repr": "jaunpur",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2024-11-08T02:21:43.519Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "2",
+    "object_repr": "jaunpur",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2024-11-08T02:21:43.519Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "1",
+    "object_repr": "lucknow",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2024-11-08T02:25:15.980Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "10",
+    "object_repr": "jaunpur",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2024-11-08T02:32:05.799Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "11",
+    "object_repr": "azamgadh",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2024-11-08T02:32:26.725Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "12",
+    "object_repr": "gorakhpur",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2024-11-08T02:33:19.973Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "13",
+    "object_repr": "lucknow",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2024-11-08T02:33:35.942Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "14",
+    "object_repr": "mau",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2024-11-08T02:34:35.720Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "15",
+    "object_repr": "varanasi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2024-11-08T02:38:27.742Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "6",
+    "object_repr": "tbl_slider object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2024-11-08T02:41:18.533Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "7",
+    "object_repr": "tbl_slider object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2024-11-08T02:44:49.097Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "8",
+    "object_repr": "tbl_slider object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2024-11-09T04:16:33.066Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "9",
+    "object_repr": "tbl_news object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2024-11-09T09:45:55.899Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "9",
+    "object_repr": "tbl_news object (9)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2024-11-09T11:55:33.297Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "8",
+    "object_repr": "tbl_news object (8)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2024-11-09T12:00:22.416Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "16",
+    "object_repr": "world",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2024-11-09T12:02:40.264Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "10",
+    "object_repr": "tbl_news object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2024-11-09T12:10:27.542Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "11",
+    "object_repr": "tbl_news object (11)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2024-11-09T12:20:53.700Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "12",
+    "object_repr": "tbl_news object (12)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2024-11-09T12:24:25.158Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "13",
+    "object_repr": "tbl_news object (13)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2024-11-09T12:26:47.501Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_city"
+    ],
+    "object_id": "17",
+    "object_repr": "delhi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2024-11-09T12:27:12.656Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "14",
+    "object_repr": "tbl_news object (14)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2024-11-09T12:30:38.960Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "15",
+    "object_repr": "tbl_news object (15)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2024-11-09T12:32:40.242Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "16",
+    "object_repr": "tbl_news object (16)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2024-11-09T12:35:19.111Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "17",
+    "object_repr": "tbl_news object (17)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2024-11-09T12:47:11.559Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "18",
+    "object_repr": "tbl_news object (18)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2024-11-09T12:51:10.580Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "19",
+    "object_repr": "tbl_news object (19)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2024-11-09T12:53:00.598Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "20",
+    "object_repr": "tbl_news object (20)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2024-11-09T12:56:18.735Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "21",
+    "object_repr": "tbl_news object (21)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2024-11-09T13:10:16.995Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "22",
+    "object_repr": "tbl_news object (22)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2024-11-09T13:13:16.316Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "23",
+    "object_repr": "tbl_news object (23)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2024-11-09T13:20:21.258Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "video_news"
+    ],
+    "object_id": "5",
+    "object_repr": "video_news object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2024-11-09T13:22:59.019Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "video_news"
+    ],
+    "object_id": "6",
+    "object_repr": "video_news object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2024-11-10T16:57:19.567Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_investor"
+    ],
+    "object_id": "3",
+    "object_repr": "tbl_investor object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2024-11-10T16:59:44.707Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_investor"
+    ],
+    "object_id": "4",
+    "object_repr": "tbl_investor object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2024-11-10T17:06:39.628Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_investor"
+    ],
+    "object_id": "5",
+    "object_repr": "tbl_investor object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2024-11-11T04:37:06.285Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "9",
+    "object_repr": "tbl_slider object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2024-11-11T04:38:19.945Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "9",
+    "object_repr": "tbl_slider object (9)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2024-11-11T05:54:43.632Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "10",
+    "object_repr": "tbl_slider object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2024-11-11T06:01:43.271Z",
+    "user": [
+      "Nitish@2594"
+    ],
+    "content_type": [
+      "user",
+      "tbl_slider"
+    ],
+    "object_id": "10",
+    "object_repr": "tbl_slider object (10)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2024-12-02T09:44:12.170Z",
+    "user": [
+      "Nitish"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "1",
+    "object_repr": "nitish11",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2024-12-02T09:44:34.846Z",
+    "user": [
+      "Nitish"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "1",
+    "object_repr": "nitish11",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2024-12-07T05:27:36.765Z",
+    "user": [
+      "Nitish"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "24",
+    "object_repr": "tbl_news object (24)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2024-12-13T04:27:11.760Z",
+    "user": [
+      "Nitish"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "25",
+    "object_repr": "tbl_news object (25)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2024-12-13T04:28:26.172Z",
+    "user": [
+      "Nitish"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "25",
+    "object_repr": "tbl_news object (25)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2024-12-13T04:28:26.172Z",
+    "user": [
+      "Nitish"
+    ],
+    "content_type": [
+      "user",
+      "tbl_news"
+    ],
+    "object_id": "24",
+    "object_repr": "tbl_news object (24)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]

@@ -174,6 +174,39 @@ ALLOWED_HOSTS = [
     if host.strip()
 ]
 
+# Automatically allow Vercel deployment URL
+VERCEL_URL = os.getenv("VERCEL_URL")
+
+if VERCEL_URL:
+    VERCEL_HOST = (
+        VERCEL_URL
+        .replace("https://", "")
+        .replace("http://", "")
+        .rstrip("/")
+    )
+
+    if VERCEL_HOST not in ALLOWED_HOSTS:
+        ALLOWED_HOSTS.append(VERCEL_HOST)
+
+
+# ============================================================
+# CSRF
+# ============================================================
+
+CSRF_TRUSTED_ORIGINS = [
+    origin.strip()
+    for origin in os.getenv(
+        'CSRF_TRUSTED_ORIGINS',
+        'https://newsportal-opal.vercel.app',
+    ).split(',')
+    if origin.strip()
+]
+
+if VERCEL_URL:
+    VERCEL_ORIGIN = f"https://{VERCEL_HOST}"
+
+    if VERCEL_ORIGIN not in CSRF_TRUSTED_ORIGINS:
+        CSRF_TRUSTED_ORIGINS.append(VERCEL_ORIGIN)
 
 # ============================================================
 # APPLICATIONS

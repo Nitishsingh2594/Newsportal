@@ -165,10 +165,14 @@ SECRET_KEY = os.getenv(
 
 DEBUG = os.getenv('DEBUG', 'True').lower() == 'true'
 
-ALLOWED_HOSTS = os.getenv(
-    'ALLOWED_HOSTS',
-    '127.0.0.1,localhost,newsportal-opal.vercel.app',
-).split(',')
+ALLOWED_HOSTS = [
+    host.strip()
+    for host in os.getenv(
+        'ALLOWED_HOSTS',
+        '127.0.0.1,localhost,newsportal-opal.vercel.app',
+    ).split(',')
+    if host.strip()
+]
 
 
 # ============================================================
